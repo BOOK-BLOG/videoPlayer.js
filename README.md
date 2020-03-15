@@ -3,7 +3,7 @@ Play video in a web site by videoPlayer.js
 
 ## Get Started
 
-1. Download the files in /dist.
+1. Download the files in [https://github.com/MrWillCom/videoPlayer.js/tree/master/dist](/dist).
 2. Include the files in your HTML document.
 
 ### Initialization
