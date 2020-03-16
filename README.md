@@ -8,7 +8,7 @@ Play video in a web site by videoPlayer.js
 2. Download the files in [/dist](https://github.com/MrWillCom/videoPlayer.js/tree/master/dist).
 3. Include the files in your HTML document.
 
-### Initialization
+## Initialization
 
 Use `videoPlayerInit();` to initialize the player.
 
