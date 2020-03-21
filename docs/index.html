@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>videoPlayer.js</title>
+    <meta name="description" content="Play video in a web site by videoPlayer.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <img src="logo.png" alt="videoPlayer.js Logo" class="logo">
+        <h1 class="title">videoPlayer.js</h1>
+        <p class="code" onclick="videoPlayer.init();">videoPlayer.init();</p>
+        <p class="code" onclick="videoPlayer.play('videoPlayer.js.mp4');">videoPlayer.play("videoPlayer.js.mp4");</p>
+        <p class="code readme" onclick="window.open('https://github.com/BOOK-BLOG/videoPlayer.js/blob/master/README.md')">window.open("README.md"); //How to use it</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="../dist/videoPlayer.js"></script>
+    <link rel="stylesheet" href="../dist/videoPlayer.css">
+    <script>
+        videoPlayer.init();
+    </script>
+</body>
+
+</html>

@@ -12,6 +12,14 @@
     background-color: #00000080;
 }
 
+#videoPlayerVideoMask[dlmodes="light"] {
+    background-color: #ffffff80;
+}
+
+#videoPlayerVideoMask[dlmodes="dark"] {
+    background-color: #00000080;
+}
+
 #videoPlayerVideoMask[active="false"] {
     backdrop-filter: blur(0);
     pointer-events: none;

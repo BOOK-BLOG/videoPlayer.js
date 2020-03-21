@@ -10,12 +10,16 @@ Play video in a web site by videoPlayer.js
 
 ## Initialization
 
-Use `videoPlayerInit();` to initialize the player.
+Use `videoPlayer.init()` to initialize the player.
 
 ## Play the Video
 
-Use `videoPlayerPlay(videoSource)` to play the video, `videoSource` is a `string`, the URL of the video.
+Use `videoPlayer.play(videoSource)` to play the video, `videoSource` is a `string`, the URL of the video.
 
 ## Exit the Player
 
-Use `videoPlayerExit()` to Exit.
+Use `videoPlayer.exit()` to exit.
+
+## Edit the Player
+
+Use `videoPlayer.edit(dlModes="dark")` to switch to dark mode. `videoPlayer.edit(dlModes="light")` to light one.
