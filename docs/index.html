@@ -16,9 +16,10 @@
     <div class="center">
         <img src="logo.png" alt="videoPlayer.js Logo" class="logo">
         <h1 class="title">videoPlayer.js</h1>
-        <p class="code" onclick="videoPlayer.init();">videoPlayer.init();</p>
-        <p class="code" onclick="videoPlayer.play('videoPlayer.js.mp4');">videoPlayer.play("videoPlayer.js.mp4");</p>
-        <p class="code readme" onclick="window.open('https://github.com/BOOK-BLOG/videoPlayer.js/blob/master/README.md')">window.open("README.md"); //How to use it</p>
+        <p class="code" onclick="videoPlayer.play('videoPlayer.js.mp4')">videoPlayer.play("videoPlayer.js.mp4");</p>
+        <p class="code readme"
+            onclick="window.open('https://github.com/BOOK-BLOG/videoPlayer.js/blob/master/README.md')">
+            window.open("README.md"); //How to use it</p>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -26,7 +27,9 @@
     <script src="videoPlayer.js"></script>
     <link rel="stylesheet" href="videoPlayer.css">
     <script>
-        videoPlayer.init();
+        $("body").ready(function () {
+            videoPlayer.init();
+        })
     </script>
 </body>
 
