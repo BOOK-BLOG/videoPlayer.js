@@ -1,0 +1,28 @@
+{
+  "name": "videoplayer.js",
+  "version": "1.1.2",
+  "description": "Play video in a web site by videoPlayer.js",
+  "main": "dist/videoPlayer.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Read the document: https://github.com/BOOK-BLOG/videoPlayer.js/blob/master/README.md, to know how to use videoPlayer.js\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOOK-BLOG/videoPlayer.js.git"
+  },
+  "keywords": [
+    "videoplayer"
+  ],
+  "author": "BOOK-BLOG STUDIO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BOOK-BLOG/videoPlayer.js/issues"
+  },
+  "homepage": "https://github.com/BOOK-BLOG/videoPlayer.js#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/BOOK-BLOG"
+  }
+}
