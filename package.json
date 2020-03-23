@@ -22,7 +22,4 @@
     "url": "https://github.com/BOOK-BLOG/videoPlayer.js/issues"
   },
   "homepage": "https://github.com/BOOK-BLOG/videoPlayer.js#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/BOOK-BLOG"
-  }
 }
