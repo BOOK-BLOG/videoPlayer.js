@@ -6,6 +6,8 @@ Play video in a web site by videoPlayer.js
 
 1. Include [jQuery](https://jquery.com/),
 2. Download the files in [/dist](https://github.com/MrWillCom/videoPlayer.js/tree/master/dist).
+   - https://github.com/BOOK-BLOG/videoPlayer.js
+   - https://www.npmjs.com/package/videoplayer.js
 3. Include the files in your HTML document.
 
 ## Initialization
