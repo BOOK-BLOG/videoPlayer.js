@@ -8,6 +8,12 @@
     transition: all 0.5s;
 }
 
+@media (prefers-color-scheme: dark) {
+    #videoPlayerVideoMask {
+        background-color: #00000080;
+    }
+}
+
 .darkmode--activated #videoPlayerVideoMask {
     background-color: #00000080;
 }

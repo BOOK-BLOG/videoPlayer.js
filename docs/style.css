@@ -1,10 +1,28 @@
+:root {
+    --bg-color: #ffffff;
+    --txt-color: #101010;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #202020;
+        --txt-color: #ffffff;
+    }
+}
+
+html, body {
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+}
+
 @font-face {
-    font-family: JetBrainsMono;
+    font-family: "JetBrainsMono";
     src: url("JetBrainsMono.ttf");
 }
 
 * {
-    font-family: JetBrainsMono;
+    font-family: "JetBrainsMono";
+    box-sizing: border-box;
 }
 
 html, body {
@@ -38,7 +56,40 @@ html, body {
     margin: 0;
 }
 
-.center .readme{
+.center .readme {
     font-weight: bold;
-    
+}
+
+button {
+    background-color: #b0b0b0;
+    color: #000000;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: #d2d2d2;
+    transition: all 0.5s;
+}
+
+button:active {
+    background: #b3b3b3;
+    transition: all 0.15s;
+}
+
+.btn-primary {
+    background-color: #009aff;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #007bcd;
+}
+
+.btn-primary:active {
+    background-color: #0060a1;
 }
